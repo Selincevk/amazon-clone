@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>amazon-clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <!-- ? LOGO -->
+        <div class="nav-logo border">
+          <div class="logo">
+            <img src="amazon_logo.png" alt="" />
+          </div>
+        </div>
+        <!-- ? ADRES -->
+         <div class="nav-adress border">
+          <div class="add-first">Deliver To</div>
+          <div class="add-icon">
+            <i class="bi bi-geo-alt-fill"></i>
+           <span class="add-second">Türkiye</span>
+          </div>
+         </div>
+         <!-- ? ARAMA -->
+          <div class="nav-search">
+            <!-- ! select -->
+            <select>
+              <option>Tüm Kategoriler</option>
+            <option>Elektronik</option>
+            <option>Ev</option>
+            <option>Spor</option>
+            <option>Kitaplar</option>
+            <option>Moda</option>
+            <option>Otomotiv</option>
+            </select>
+            <!-- İNPUT -->
+           <input 
+           type="text" 
+           class="search-input" 
+           placeholder="Ara Amazon.com.tr" >
+           <!-- İCON -->
+            <div class="search-icon">
+              <i class="bi bi-search"></i>
+            </div>
+          </div>
+          <!-- SAĞ  -->
+           <div class="nav-signin border">
+            <p>
+              <span>Merhaba, Giriş Yapınız.</span>
+            </p>
+            <p class="nav-second">Hesap ve Listeler</p>
+           </div>
+           <div class="nav-signin border">
+            <p>
+              <span>Fikirler</span>
+            </p>
+            <p class="nav-second">Kategoriler</p>
+           </div>
+           <div class="nav-signin border">
+            <p>
+              <span>İadeler</span>
+            </p>
+            <p class="nav-second">ve Siparişler</p>
+           </div>
+           <!-- ? CART -->
+        <div class="nav-cart border">
+          <i class="bi bi-cart-fill"></i>
+          Sepet
+        </div>
+      </div>
+      <!-- panel -->
+      <div class="panel">
+        <!-- Tümü kısmı -->
+        <div class="panel-all"><i class="bi bi-list"></i> Tümü</div>
+        <div class="panel-ops">
+          <p class="border">Gülümseten Kasım Fırsatları</p>
+          <p class="border">Çok Satanlar</p>
+          <p class="border">Prime</p>
+          <p class="border">Yeni Çıkanlar</p>
+          <p class="border">Hediye Fikirleri</p>
+        </div>
+        <div class="panel-deals border">Elektronik'te alışveriş fırsatları</div>
+      </div>
+    </header>
+    <!-- * Hero -->
+    <section class="hero-section">
+      <div class="hero-msg">
+        Amazon.com'dasınız. . Ayrıca hızlı yerel teslimatla milyonlarca ürün
+        için Amazon Türkiye'den alışveriş yapabilirsiniz.
+        <a href="https://www.amazon.com.tr/" target="_blank"
+          >Amazon.tr'ye gitmek için buraya tıklayın.</a
+        >
+      </div>
+    </section>
+    <!-- CATEGORY SECTİON -->
+     <section class="category-container">
+      <!-- ? category box -->
+       <div class="box">
+        <!-- ? title -->
+         <h2>Clothes</h2>
+         <!-- ? image -->
+          <div class="box-image">
+            <img src="box1_image.jpg" alt="">
+          </div>
+          <!-- ? see more -->
+          <a href="#">See more</a>
+        </div>
+        <!-- ? category box -->
+        <div class="box">
+          <!-- ? title -->
+          <h2>Health & Personal Care</h2>
+          <!-- ?image  -->
+           <div class="box-image">
+            <img src="box2_image.jpg" alt="">
+           </div>
+           <!-- ? see more -->
+           <a href="#">See more</a>
+       </div>
+       <div class="box">
+        <!-- ? title -->
+        <h2>Furniture</h2>
+        <!-- ?image  -->
+         <div class="box-image">
+          <img src="box3_image.jpg" alt="">
+         </div>
+         <!-- ? see more -->
+         <a href="#">See more</a>
+     </div> 
+     <div class="box">
+      <!-- ? title -->
+      <h2>Electronics</h2>
+      <!-- ?image  -->
+       <div class="box-image">
+        <img src="box4_image.jpg" alt="">
+       </div>
+  
+   </div>
+   <div class="box">
+    <!-- ? title -->
+    <h2>Beauty picks</h2>
+    <!-- ?image  -->
+     <div class="box-image">
+      <img src="box5_image.jpg" alt="">
+     </div>
+     <!-- ? see more -->
+      <a href="#">See more</a>
+ </div>
+ <div class="box">
+  <!-- ? title -->
+  <h2>Pet Care</h2>
+  <!-- ?image  -->
+   <div class="box-image">
+    <img src="box6_image.jpg" alt="">
+   </div>
+   <!-- ? see more -->
+    <a href="#">See more</a>
+</div>
+<div class="box">
+  <!-- ? title -->
+  <h2>New Arrival in Toys</h2>
+  <!-- ?image  -->
+   <div class="box-image">
+    <img src="box7_image.jpg" alt="">
+   </div>
+   <!-- ? see more -->
+    <a href="#">See more</a>
+</div><div class="box">
+  <!-- ? title -->
+  <h2>Discover Fashion Trends</h2>
+  <!-- ?image  -->
+   <div class="box-image">
+    <img src="box8_image.jpg" alt="">
+   </div>
+   <!-- ? see more -->
+    <a href="#">See more</a>
+</div>
+</section>
+
+<!-- DİSCOUNT SECTİON -->
+<section class="discount-container">
+  <!-- ? title -->
+   <div class="title">
+    <h2>Elektronik Ürünler Kategorisinde Gülümseten Kasım Fırsatları</h2>
+    <a href="#">Fırsatları Daha Fazla Keşfet</a>
+   </div>
+   <!-- ? boxes -->
+    <div class="boxes">
+      <!-- ? box -->
+       <div class="discount-box">
+        <!-- ? image -->
+         <div class="img">
+          <img src="1.jpeg" alt="">
+         </div>
+         <div class="discount-box-content">
+          <p><span>23% oranına var indirim</span> Gülümseten Kasım</p>
+         </div>
+         <p class="bottom-text">Elektrikli Ev Aletleri</p>
+       </div>
+       <div class="discount-box">
+        <!-- ? image -->
+         <div class="img">
+          <img src="2.jpeg" alt="">
+         </div>
+         <div class="discount-box-content">
+          <p><span>10% oranına var indirim</span> Gülümseten Kasım</p>
+         </div>
+         <p class="bottom-text">Süpürge ve Halı Yıkama Ürünlerinde</p>
+       </div>
+       <div class="discount-box">
+        <!-- ? image -->
+         <div class="img">
+          <img src="3.jpeg" alt="">
+         </div>
+         <div class="discount-box-content">
+          <p><span>Fırsat Ürünleri</span> Gülümseten Kasım</p>
+         </div>
+         <p class="bottom-text">Sepette indirimler ile tasarruf sağla</p>
+       </div>
+       <div class="discount-box">
+        <!-- ? image -->
+         <div class="img">
+          <img src="4.jpeg" alt="">
+         </div>
+         <div class="discount-box-content">
+          <p><span>15% oranına var indirim</span> Prime Fırsatı</p>
+         </div>
+         <p class="bottom-text">Air Fry</p>
+       </div>
+    </div>
+</section>
+
+     <!-- FOOTER -->
+      <footer>
+        <!-- !üst kısım -->
+         <div class="foot-panel-top">
+          <a href="#">Başa Dön</a>
+         </div>
+         <div class="foot-panel-bottom">
+          <!-- ? FOOTER LİST -->
+          <ul class="footer-list">
+            <li>Hakkımızda</li>
+            <li><a href="#">Kariyer</a></li>
+            <li><a href="#">İletişim</a></li>
+            <li><a href="#">Bilgi Toplumu Hizmetleri</a></li>
+            <li><a href="#">Amazon Science</a></li>
+          </ul>
+          </ul> 
+          <ul class="footer-list">
+            <li>Bizimle Para Kazanın</li>
+            <li><a href="#">Markanızı Koruyun ve Oluşturun</a></li>
+            <li><a href="#">Amazon'da Satış Yapın</a></li>
+            <li><a href="#">Bilgi Toplumu Hizmetleri</a></li>
+            <li><a href="#">Ürünlerinizin Reklamını Yapın</a></li>
+          </ul>
+           <ul class="footer-list">
+            <li>Amazın Ödeme Araçları</li>
+            <li><a href="#">Kredi Kartı</a></li>
+            <li><a href="#">Taksitli Ödeme Araçları</a></li>
+          </ul>
+          <ul class="footer-list">
+            <li>Size Yardımcı Olalım</li>
+            <li><a href="#">Kargoları Takip Edin veya Siparişleri Görüntüleyin</a></li>
+            <li><a href="#"> COVID-19 ve Amazon</a></li>
+            <li><a href="#">Amazon Science</a></li>
+            <li><a href="#">Erişilebilirlik</a></li>
+            <li><a href="#">Müşteri Hizmetleri</a></li>
+          </ul>
+         </div>
+      </footer>
+  </body>
+</html>
