@@ -10,3 +10,7 @@ Responsive Layout: Flexbox ve Grid CSS teknikleri kullanılarak responsive bir y
 
 •HTML5
 •CSS3 -- Flexbox -- Grid -- Geçişler -- Hover Efektleri -- Header ve Hero Kısımları
+
+<h1> önizleme:</h1>
+
+![](ekran.gif)
