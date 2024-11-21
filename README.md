@@ -14,3 +14,7 @@ Responsive Layout: Flexbox ve Grid CSS teknikleri kullanılarak responsive bir y
 <h1> önizleme:</h1>
 
 ![](ekran.gif)
+
+<h1>Sorularınız ve Önerileriniz için:</h1>
+
+selincevk@gmail.com
